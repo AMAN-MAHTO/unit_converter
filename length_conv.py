@@ -1,6 +1,8 @@
 l=['Kilomater','Meter','Centimeter','Milimeter','Micrometer','Nanometer',
         'Mile','Yard','Foot','Inch','Nactical mile']
 
+def list_of_lenths_units():
+    return l
 def k_t_o(num,second_unit):
     #!1km = 1000m = 100000cm = 1e + 6 mm = 1e+9 um = 1e+12 nm =
     #!0.621371 m = 1093.61 y = 3280.84 f = 39370.1 in = 0.539957 Nm

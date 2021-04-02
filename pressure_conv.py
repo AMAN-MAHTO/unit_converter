@@ -1,5 +1,6 @@
 p=['Bar','Pascal','Pound per square inch','Standard atmosphere','Torr']
-
+def list_of_pressure_units():
+    return p
 def bar_to_other(num,second_unit):
     if second_unit == p[1]:
         return num*(10**5)
